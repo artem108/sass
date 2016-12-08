@@ -1,19 +1,22 @@
 $width: 100%;
 $colorText: #fff;
 $colorHover: #f4b60d;
+$heigthNav: 335px;
 
 * {
   margin: 0;
   padding: 0;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
 }
 
 
 
   .wrapper {
     width:66%;
-    height: 2730px;
+    height: 1000px;
     margin-left: 17%;
     text-align: center;
+    // HEADER
       header {
         .wrapper__header__logo {
           width: 220px;
@@ -39,21 +42,21 @@ $colorHover: #f4b60d;
             width: $width;
             height: 55px;
             background-color: #2a2d32;
-            .wrapper__header__mainMenu ul li{
-            position:relative;
-            float: left;
-              .wrapper__header__mainMenu li {
-                list-style: none;
-                width: 115px;
-                padding-left: 20px;
-                    .wrapper__header__mainMenu a {
-                      text-decoration: none;
-                      display:block;
-                      text-transform: uppercase;
-                      color: $colorText;
-                    }
-                  }
-             }
+            // .wrapper__header__mainMenu ul li{
+            // position:relative;
+            // float: left;
+            //   .wrapper__header__mainMenu li {
+            //     list-style: none;
+            //     width: 115px;
+            //     padding-left: 20px;
+            //         .wrapper__header__mainMenu a {
+            //           text-decoration: none;
+            //           display:block;
+            //           text-transform: uppercase;
+            //           color: $colorText;
+            //         }
+            //       }
+            //  }
           }
           .wrapper__header__banner {
             margin-top: 40px;
@@ -64,4 +67,93 @@ $colorHover: #f4b60d;
             background-repeat: no-repeat;
           }
     }
-  }
+    // NAV
+    nav {
+      width: $width;
+      height: $heigthNav;
+        .wrapper__nav__01 {
+          width: 33%;
+          height: $heigthNav;
+          float: left;
+          margin-top: 75px;
+          background-image: url(../img/01.png);
+          background-repeat: no-repeat;
+          background-position: top  left;
+          h1 {
+            margin-top: 50px;
+            margin-left: 30px;
+            font-size: 20px;
+
+          }
+          .wrapper__nav__01__text {
+            padding-left: 125px;
+            text-align: left;
+            font-size: 12px;
+            color: #9d9d9d;
+          }
+          a {
+            text-decoration: none;
+            color: #000;
+            font-size: 11px;
+          }
+        }
+        .wrapper__nav__02 {
+          width: 34%;
+          height: $heigthNav;
+          float: left;
+          margin-top: 58px;
+          background-image: url(../img/02.png);
+          background-repeat: no-repeat;
+          background-position: top  left;
+          h1 {
+            margin-top: 67px;
+            margin-left: 105px;
+            font-size: 20px;
+
+          }
+          .wrapper__nav__02__text {
+            padding-left: 145px;
+            text-align: left;
+            font-size: 12px;
+            color: #9d9d9d;
+          }
+          a {
+            text-decoration: none;
+            color: #000;
+            font-size: 11px;
+          }
+        }
+        .wrapper__nav__03 {
+          width: 33%;
+          height: $heigthNav;
+          float: left;
+          margin-top: 78px;
+          background-image: url(../img/03.png);
+          background-repeat: no-repeat;
+          background-position: top  left;
+          h1 {
+            margin-top: 40px;
+            margin-left: 40px;
+            font-size: 20px;
+
+          }
+          .wrapper__nav__03__text {
+            padding-left: 130px;
+            text-align: left;
+            font-size: 12px;
+            color: #9d9d9d;
+          }
+          a {
+            text-decoration: none;
+            color: #000;
+            font-size: 11px;
+          }
+        }
+    }
+}
+    // SECTION
+    section {
+      width: $width ;
+      height: 500px;
+      background-color: #2a2d32;
+    }
