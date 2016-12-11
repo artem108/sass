@@ -86,7 +86,7 @@ $heigthNav: 335px;
 
           }
           .wrapper__nav__01__text {
-            padding-left: 125px;
+            padding-left: 135px;
             text-align: left;
             font-size: 12px;
             color: #9d9d9d;
@@ -179,6 +179,7 @@ background-color: #2a2d32;
       }
 }
 .newsBanner {
+  float: left;
   width: $width;
   height: 540px;
   background-color: #f7f7f7;
@@ -186,26 +187,41 @@ background-color: #2a2d32;
     width: 45%;
     height: 540px;
     margin-left: 16%;
+    padding-left: 200px;
     background-image: url(../img/newsIkon.png);
     background-repeat: no-repeat;
     background-position: left;
-      h1 {
-        padding-top: 30px;
-        padding-left: 30px;
-        font-size: 22px;
-      }
     .newsBanner__news__text {
       text-align: left;
-      padding-left: 180px;
+      width: 45%;
+      h1 {
+        padding-top: 100px;
+        font-size: 22px;
+      }
+              .newsBanner__news__text__span{
+                font-size: 10px;
+                color: $colorText;
+              }
+        .newsBanner__news__text__p {
+          font-size: 8px;
+          color: #8a8a8a;
+
+        }
     }
   }
 }
-footer {
+.footer {
   width: 66%;
   height: 250px;
   margin-left: 16%;
+  margin-top: 500px;
   background-image: url(../img/sponsors.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+}
+footer {
+  width: $width ;
+  height: 370px;
+  background-color: #2a2d32;
 }

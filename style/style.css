@@ -52,7 +52,7 @@
         margin-left: 30px;
         font-size: 20px; }
       .wrapper nav .wrapper__nav__01 .wrapper__nav__01__text {
-        padding-left: 125px;
+        padding-left: 135px;
         text-align: left;
         font-size: 12px;
         color: #9d9d9d; }
@@ -125,6 +125,7 @@ section {
           color: #f4b60d; }
 
 .newsBanner {
+  float: left;
   width: 100%;
   height: 540px;
   background-color: #f7f7f7; }
@@ -132,24 +133,36 @@ section {
     width: 45%;
     height: 540px;
     margin-left: 16%;
+    padding-left: 200px;
     background-image: url(../img/newsIkon.png);
     background-repeat: no-repeat;
     background-position: left; }
-    .newsBanner .newsBanner__news h1 {
-      padding-top: 30px;
-      padding-left: 30px;
-      font-size: 22px; }
     .newsBanner .newsBanner__news .newsBanner__news__text {
       text-align: left;
-      padding-left: 180px; }
+      width: 45%; }
+      .newsBanner .newsBanner__news .newsBanner__news__text h1 {
+        padding-top: 100px;
+        font-size: 22px; }
+      .newsBanner .newsBanner__news .newsBanner__news__text .newsBanner__news__text__span {
+        font-size: 10px;
+        color: #fff; }
+      .newsBanner .newsBanner__news .newsBanner__news__text .newsBanner__news__text__p {
+        font-size: 8px;
+        color: #8a8a8a; }
 
-footer {
+.footer {
   width: 66%;
   height: 250px;
   margin-left: 16%;
+  margin-top: 500px;
   background-image: url(../img/sponsors.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain; }
+
+footer {
+  width: 100%;
+  height: 370px;
+  background-color: #2a2d32; }
 
 /*# sourceMappingURL=style.css.map */
